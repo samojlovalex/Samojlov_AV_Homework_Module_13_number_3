@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/list_itemMargin"
+    android:layout_marginBottom="@dimen/list_itemMargin"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_End_Main"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameListItemTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="@string/nameTV_Hint"
+                android:textColor="@color/Blue"
+                android:textColorHint="#78909C"
+                android:textSize="@dimen/name_surname_ListItem_TextSize"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/surnameListItemTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_Top_Main"
+                android:gravity="center_vertical"
+                android:hint="@string/surnameTV_Hint"
+                android:textColor="@color/Blue"
+                android:textColorHint="#78909C"
+                android:textSize="@dimen/name_surname_ListItem_TextSize"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ageListItemTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="@string/ageTV_Hint"
+                android:textColor="@color/Blue"
+                android:textColorHint="#78909C"
+                android:textSize="@dimen/age_post_ListItem_TextSize"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/postListItemTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_Top_Main"
+                android:gravity="center_vertical"
+                android:hint="@string/postListItemTV_Hint"
+                android:textColor="@color/Blue"
+                android:textColorHint="#78909C"
+                android:textSize="@dimen/age_post_ListItem_TextSize"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

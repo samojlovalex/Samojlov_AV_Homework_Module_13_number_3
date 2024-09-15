@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <!--MainActivity-->
+    <dimen name="margin_Top_Main">8dp</dimen>
+    <dimen name="margin_End_Main">8dp</dimen>
+    <dimen name="name_surname_TextSize">18sp</dimen>
+    <dimen name="age_post_TextSize">16sp</dimen>
+    <dimen name="button_TextSize">18sp</dimen>
+    <dimen name="minHeight">48dp</dimen>
+    <!--list_item-->
+    <dimen name="list_itemMargin">8dp</dimen>
+    <dimen name="list_itemTextMargin">4dp</dimen>
+    <dimen name="list_itemTextSize">18sp</dimen>
+    <dimen name="list_itemTextViewMinSize">48dp</dimen>
+    <dimen name="name_surname_ListItem_TextSize">18sp</dimen>
+    <dimen name="age_post_ListItem_TextSize">14sp</dimen>
+    <!--spinner-->
+    <dimen name="minHeightSpinner">60dp</dimen>
+
+
+</resources>

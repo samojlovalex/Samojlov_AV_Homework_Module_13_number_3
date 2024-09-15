@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_13_number_3</string>
+
+    <string name="toolbar_title">Подбор персонала</string>
+    <string name="toolbar_subtitle">Mod. 13 № 3</string>
+    <string name="exit">Exit</string>
+    <string name="toast_exit">Приложение закрыто</string>
+    <string name="nameTV_Hint">Имя</string>
+    <string name="surnameTV_Hint">Фамилия</string>
+    <string name="ageTV_Hint">Возраст, лет</string>
+    <string name="saveBT_Text">Сохранить</string>
+    <string name="postListItemTV_Hint">Должность</string>
+    <string name="person_add_Toast">%1$s %2$s добавлен</string>
+    <string name="post_first_item">Должность</string>
+    <string name="myDialogTitle">Внимание</string>
+    <string name="myDialogMessage">Удалить пользователя %1$s?</string>
+    <string name="person_romove_snackbar_text">%1$s удален</string>
+    <string name="poct_clear_text" />
+    <string name="postList_first_item">Все должности</string>
+    <string name="sortingMenu">Сортировка</string>
+    <string name="notSortingMenu">Без сортировки</string>
+    <string name="sort_true_message">Список отсортирован по должностям</string>
+
+</resources>
